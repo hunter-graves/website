@@ -2,173 +2,55 @@
 <html lang="en">
 <head>
   <title>North Bay Wine</title>
- <meta charset="utf-8">
+
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/styles/site.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.threesixty.js"></script>
-<style>
-li
-{
-margin: 0 0 0 15px;
-}
-</style>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header" >
-      <a class="navbar-brand" href="index.html">Wine Demo</a>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header" >
+        <a class="navbar-brand" href="/index.html">Wine Demo</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="/wines/pris/index.html">Orin Swift</a></li>
+        <li><a href="/wines/mat/index.html">Matthiasson</a></li>
+        <li><a href="/wines/orin/index.html">Ulysses</a></li>
+      </ul>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="pris.html">Orin Swift</a></li>
-      <li><a href="mat.html">Matthiasson</a></li>
-      <li><a href="orin.html">Ulysses</a></li>
-    </ul>
-  </div>
-</nav>
+  </nav>
 
-<br>
-<br>
-<br>
-<br>
-<br>
- 
-<div class="container" background-color: white;>
-  <div class="row">
-    <div class="col-sm-4">
-
-
-      <h3><a href="pris.html">
-2014 Orin Swift Palmero Cabernet Sauvignon</a></h3>
-      <p>1325 Main St, St Helena, CA 94574</p>
-      <p></p>
+  <div class="container wine-list" background-color: white;>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3><a href="pris.html">2014 Orin Swift Palmero Cabernet Sauvignon</a></h3>
+        <p>1325 Main St, St Helena, CA 94574</p>
+        <img class="pris-image" src="/assets/images/pris/pris1.jpg" alt="Orin Swift Palmero Cabernet Sauvignon Wine Bottle" />
     </div>
+
     <div class="col-sm-4">
-      <h3><a href="orin.html">2002 Ulysses Vineyard Cabernet Sauvignon</a>
-</h3>
+      <h3><a href="orin.html">2002 Ulysses Vineyard Cabernet Sauvignon</a></h3>
       <p>Ulysses Vineyard, Oakville, CA 94562</p>
-      <p></p>
+      <img class="uly-image" src="/assets/images/uly/uly2.jpg" alt="Ulysses Vineyard Cabernet Sauvignon Wine Bottle" />
     </div>
+
     <div class="col-sm-4">
-      <h3><a href="mat.html">
-2013 Matthiasson White Wine Blend</a></h3>        
+      <h3><a href="mat.html">2013 Matthiasson White Wine Blend</a></h3>
       <p>Matthiason, Napa, CA 94581</p>
-      <p></p>
+      <img class="mat-image" src="/assets/images/mat/mat1.jpg" alt=" Matthiasson White Wine Blend Wine Bottle" />
     </div>
   </div>
-<div class="container">
-<div class="row">
-  <script language="javascript">
-  $(function()
-  {
-  var pris = [];
-  var uly =[];
-  var mat =[];
-  for (var counter=1; counter<=12; counter++)
-  pris.push("pris" +counter + ".jpg");
-  $("#mousemove").threesixty({images:pris, method:'mousemove', 'cycle':3, direction:"forward"});
-  for(var counterTwo=1; counterTwo<=12; counterTwo++)
-  uly.push("uly" +counterTwo + ".jpg");
-  $("#mousemove2").threesixty({images:uly, method:'mousemove', 'cycle':3, direction:"forward"});
-  for(var counterThree=1; counterThree<=12; counterThree++)
-  mat.push("mat" +counterThree + ".jpg");
-  $("#mousemove3").threesixty({images:mat, method:'mousemove', 'cycle':3, direction:"forward"});
-   });
-  </script>
-		
-<div class="col-sm-4">
-<img id="mousemove" src="pris1.jpg">
-</div>
-<div class="col-sm-4">
-<img id="mousemove2" src="uly1.jpg">
-</div>
-<div class="col-sm-4">
-<img id="mousemove3" src="mat1.jpg">
-</div>
-</div>
-</div>
+
+  <script src="/assets/scripts/wine-spinner.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
