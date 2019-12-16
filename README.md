@@ -1,6 +1,6 @@
 
 ## My very first website (December 2017)
-> Please excuse the repository formatting, this is from when I first started learning github
+> __Please excuse the repository formatting, this is from when I first started learning github**
  - This was completely functional at one point because I presented it for my class and got an A
 
 ### Instructions (__very important__ right now, before I update this repo)
