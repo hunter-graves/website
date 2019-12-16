@@ -3,8 +3,8 @@
 > Please excuse the repository formatting, this is from when I first started learning github
  - This was completely functional at one point because I presented it for my class and got an A
 
-### Instructions (very important right now, before I update this repo)
-- Clone the repository and open either pris.html or mat.html in Firefox
+### Instructions (__very important__ right now, before I update this repo)
+- Clone the repository and open either **pris.html** or **mat.html** in Firefox
 - Since I did not know about responsive web design at this time, you may need to hold ctrl+mousewheeldown to zoom out and see the entire page =]
 
 
