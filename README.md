@@ -1,7 +1,9 @@
 
 ## My very first website (December 2017)
 ## Please excuse the repository formatting, this is from when I first started learning github
- - This was completely functional at one point because I presented it for my class and got an A
+ - clone the repo
+ - open index.html
+ - hover over the bottles w cursor
 
 ### Instructions (__very important__ right now, before I update this repo)
 - Clone the repository and open either **pris.html** or **mat.html** in **Firefox**
