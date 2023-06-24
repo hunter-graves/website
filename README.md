@@ -25,6 +25,5 @@
 - ORIN SWIFT and MATTHIASON seem to be rendering the best right now (consistent)
 - **F5 refreshes the images when they fail to render sometimes**
 
-# Reverted a commit to restore this to its original point from Dec 2017, going to update this repository after my last finals on Friday, 12/20/2019
 
 
